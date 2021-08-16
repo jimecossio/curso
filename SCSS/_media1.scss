@@ -1,0 +1,22 @@
+    @media (min-width:517px) and (max-width:980px) {
+        body {
+            #menu {
+                width: 100%;
+            }
+            .principalCategorias {
+                width: fit-content;
+                background-color: map-get($map: $colors, $key: grisFondo);
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                gap: 3px;
+                grid-template-areas: "a b""d c" "e f" "h g " "i j" "l k";
+                img {
+                    height: 237px;
+                }
+                h6 {
+                    text-align: center;
+                }
+            }
+        }
+    }

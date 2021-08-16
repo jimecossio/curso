@@ -1,0 +1,39 @@
+body {
+    div {
+        h2 {
+            @include titulos;
+            transform: skewX(340deg);
+        }
+        .CategoriasCirculos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            h4 {
+                font-size: 1.8rem;
+                font-weight: 400;
+                display: block;
+                width: 10.625rem;
+                color: black;
+                text-align: center
+            }
+            .circulo1,
+            .circulo2,
+            .circulo3,
+            .circulo4 {
+                width: 13.5rem;
+                height: 13.5rem;
+                border-radius: 7.5rem;
+                background: radial-gradient( #ececec, grey);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                float: left;
+                margin: 1rem;
+                padding: 0.625rem;
+                border: 1px solid #555555;
+            }
+        }
+    }
+}

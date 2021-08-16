@@ -1,0 +1,77 @@
+    body {
+        h2 {
+            @include titulos
+        }
+        div.CentradoGrills {
+            display: flex;
+            justify-content: center;
+            .principalCategorias {
+                background-color: map-get($map: $colors, $key: grisFondo);
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1.3fr 1.3fr 1.3fr;
+                gap: 3px 0px;
+                grid-template-areas: "a b c d" "f e h g" "i j k l";
+                .a {
+                    grid-area: a;
+                }
+                .b {
+                    grid-area: b;
+                }
+                .c {
+                    grid-area: c;
+                }
+                .d {
+                    grid-area: d;
+                }
+                .f {
+                    grid-area: f;
+                }
+                .e {
+                    grid-area: e;
+                }
+                .h {
+                    grid-area: h;
+                }
+                .g {
+                    grid-area: g;
+                }
+                .i {
+                    grid-area: i;
+                }
+                .j {
+                    grid-area: j;
+                }
+                .k {
+                    grid-area: k;
+                }
+                .l {
+                    grid-area: l;
+                }
+                .a,
+                .c,
+                .e,
+                .g,
+                .i,
+                .k {
+                    justify-self: center;
+                    align-self: center;
+                }
+                h6 {
+                    margin: 7%;
+                    color: rgb(43, 43, 43);
+                    font-size: 1.7rem;
+                    font-weight: 300;
+                    text-decoration: underline;
+                    text-align: right;
+                }
+                img {
+                    height: 220px;
+                    transition: width 0s, height 0s;
+                }
+                img:hover {
+                    height: 221px;
+                }
+            }
+        }
+    }

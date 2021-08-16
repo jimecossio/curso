@@ -1,0 +1,59 @@
+body {
+    #formulario {
+        width: 100%;
+        margin: auto;
+        border-radius: 0.625rem;
+        background-color: #666666d7;
+        text-align: center;
+        color: #ececec;
+    }
+    form {
+        form label,
+        fieldset {
+            font-weight: bolder;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+            width: 12.5rem;
+            padding: 0.625rem;
+            border: 2px solid #a0a0a0;
+            border-radius: 1.25rem;
+            background-color: map-get($map: $colors, $key: grisFondo);
+            margin: 0.3125rem;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            width: 50%;
+            padding: 0.625rem;
+            margin-top: 0.0625rem;
+            border: 5px solid #a0a090;
+            border-radius: 1.25rem;
+            color: rgb(0, 0, 0);
+            background-color: #ececec;
+        }
+        input[type="submit"],
+        input[type="reset"]:hover {
+            cursor: pointer;
+        }
+        input {
+            transition: all 4s;
+        }
+        input[type="checkbox"] {
+            transition: none;
+        }
+        input:focus {
+            width: 200px;
+            font-size: 24px;
+        }
+        textarea {
+            width: 50%;
+            height: 6.25rem;
+            border: 3px solid #a0a090;
+            border-radius: 1.25rem;
+            background-color: #ececec;
+            margin: 0.3125rem;
+        }
+    }
+}

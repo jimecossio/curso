@@ -1,0 +1,18 @@
+        body {
+            div.carousel-inner {
+                img {
+                    width: 60%;
+                    height: 60%;
+                    margin: auto;
+                }
+                div.caruselCentrado {
+                    display: flex;
+                }
+            }
+            div {
+                a.carousel-control-prev-icon,
+                .carousel-control-next-icon {
+                    background-color: #A0A090;
+                }
+            }
+        }

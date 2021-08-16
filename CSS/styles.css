@@ -1,0 +1,632 @@
+body {
+    height: 100vh;
+    background-color: #a0a090;
+    background-image: url(/img/fondo.JPG);
+    background-position: center;
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body header {
+    background-image: url(/img/fondo.JPG);
+    background-color: #a0a090;
+    background-position: center;
+    padding: 3.125rem;
+    font: 48px sans-serif;
+    padding-top: 8rem;
+}
+
+body .menu {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    right: 0px;
+    z-index: 10;
+}
+
+body .menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #666666d7;
+}
+
+body .menu ul li {
+    float: left;
+}
+
+body .menu ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.875rem 1.25rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+body .menu .menu ul li li a:hover:not(.MenuSeleccionado) {
+    background-color: #555555;
+}
+
+body .menu li.submenu {
+    display: inline-block;
+}
+
+body .menu .despegable {
+    display: none;
+    position: absolute;
+    background-color: #6d6c6c;
+}
+
+body .menu .despegable a:hover {
+    background-color: #f1f1f1;
+}
+
+body .menu .submenu:hover .despegable {
+    display: block;
+}
+
+body .menu .menu ul li:hover ul {
+    width: 6.875rem;
+    padding: 0.9375rem;
+    display: block;
+    background-color: #a0a0a0;
+}
+
+body {
+    height: 100vh;
+    background-color: #a0a090;
+    background-image: url(/img/fondo.JPG);
+    background-position: center;
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body header h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    animation-duration: 6s;
+    animation-name: animacion;
+    font-size: 65px;
+}
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body .alarma {
+    background-color: #666666d7;
+    color: white;
+    border: solid 3px white;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body div h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 0.625rem;
+    display: block;
+    transform: skewX(340deg);
+}
+
+body div .CategoriasCirculos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body div .CategoriasCirculos h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: block;
+    width: 10.625rem;
+    color: black;
+    text-align: center;
+}
+
+body div .CategoriasCirculos .circulo1,
+body div .CategoriasCirculos .circulo2,
+body div .CategoriasCirculos .circulo3,
+body div .CategoriasCirculos .circulo4 {
+    width: 13.5rem;
+    height: 13.5rem;
+    border-radius: 7.5rem;
+    background: radial-gradient(#ececec, grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin: 1rem;
+    padding: 0.625rem;
+    border: 1px solid #555555;
+}
+
+body div.carousel-inner img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+
+body div.carousel-inner div.caruselCentrado {
+    display: flex;
+}
+
+body div a.carousel-control-prev-icon,
+body div .carousel-control-next-icon {
+    background-color: #A0A090;
+}
+
+body div.UltimasRecetas {
+    margin-top: 1.875rem;
+}
+
+body div.UltimasRecetas h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 0.625rem;
+    display: block;
+    transform: skewX(340deg);
+}
+
+body .recetas {
+    width: 100%;
+    background-color: #cfcfcf;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px 0px;
+    grid-template-areas: "a1 b1" "d1 c1" "e1 f1";
+    align-items: center;
+    justify-items: center;
+}
+
+body .recetas .a1 {
+    grid-area: a1;
+}
+
+body .recetas .b1 {
+    grid-area: b1;
+}
+
+body .recetas .c1 {
+    grid-area: c1;
+}
+
+body .recetas .d1 {
+    grid-area: d1;
+}
+
+body .recetas .e1 {
+    grid-area: e1;
+}
+
+body .recetas .f1 {
+    grid-area: f1;
+}
+
+body .recetas a {
+    text-decoration: underline;
+}
+
+body .recetas h3 {
+    color: #2b2b2b;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+body div.categoria {
+    align-content: center;
+    align-items: center;
+    background-color: #cfcfcf;
+    border: 2px solid #555555;
+}
+
+body div.categoria table {
+    margin-bottom: 0px;
+}
+
+body div.categoria table .alinear {
+    text-align: center;
+}
+
+body div.categoria table .alinear .fila {
+    padding: 0.625rem;
+}
+
+body div.categoria table .alinear ol.ListaRecetas {
+    font-style: oblique;
+}
+
+body #formulario {
+    width: 100%;
+    margin: auto;
+    border-radius: 0.625rem;
+    background-color: #666666d7;
+    text-align: center;
+    color: #ececec;
+}
+
+body form form label,
+body form fieldset {
+    font-weight: bolder;
+}
+
+body form input[type="text"],
+body form input[type="email"],
+body form input[type="number"],
+body form select {
+    width: 12.5rem;
+    padding: 0.625rem;
+    border: 2px solid #a0a0a0;
+    border-radius: 1.25rem;
+    background-color: #cfcfcf;
+    margin: 0.3125rem;
+}
+
+body form input[type="submit"],
+body form input[type="reset"] {
+    width: 50%;
+    padding: 0.625rem;
+    margin-top: 0.0625rem;
+    border: 5px solid #a0a090;
+    border-radius: 1.25rem;
+    color: black;
+    background-color: #ececec;
+}
+
+body form input[type="submit"],
+body form input[type="reset"]:hover {
+    cursor: pointer;
+}
+
+body form input {
+    transition: all 4s;
+}
+
+body form input[type="checkbox"] {
+    transition: none;
+}
+
+body form input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+
+body form textarea {
+    width: 50%;
+    height: 6.25rem;
+    border: 3px solid #a0a090;
+    border-radius: 1.25rem;
+    background-color: #ececec;
+    margin: 0.3125rem;
+}
+
+body .TitulosRecetas {
+    font-weight: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+    background-color: #cfcfcf;
+    margin-bottom: 0;
+}
+
+body .alfajores,
+body .budin,
+body .burgers {
+    background-color: #cfcfcf;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body .alfajores .letraRecetas,
+body .budin .letraRecetas,
+body .burgers .letraRecetas {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-left: 1.375rem;
+    padding-bottom: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+body .alfajores .letraRecetas ul.lista,
+body .budin .letraRecetas ul.lista,
+body .burgers .letraRecetas ul.lista {
+    list-style-type: circle outside;
+}
+
+body .alfajores .fotoRecetas img,
+body .budin .fotoRecetas img,
+body .burgers .fotoRecetas img {
+    transition: animate__pulse;
+}
+
+body .pasaPagina {
+    font-weight: bold;
+    padding: 0.625rem;
+    text-align: center;
+    background-color: #666666d7;
+    color: #c9c9c9;
+}
+
+body .pasaPagina a:hover {
+    background-color: #555555;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 0.625rem;
+    display: block;
+}
+
+body div.CentradoGrills {
+    display: flex;
+    justify-content: center;
+}
+
+body div.CentradoGrills .principalCategorias {
+    background-color: #cfcfcf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 1.3fr 1.3fr;
+    gap: 3px 0px;
+    grid-template-areas: "a b c d" "f e h g" "i j k l";
+}
+
+body div.CentradoGrills .principalCategorias .a {
+    grid-area: a;
+}
+
+body div.CentradoGrills .principalCategorias .b {
+    grid-area: b;
+}
+
+body div.CentradoGrills .principalCategorias .c {
+    grid-area: c;
+}
+
+body div.CentradoGrills .principalCategorias .d {
+    grid-area: d;
+}
+
+body div.CentradoGrills .principalCategorias .f {
+    grid-area: f;
+}
+
+body div.CentradoGrills .principalCategorias .e {
+    grid-area: e;
+}
+
+body div.CentradoGrills .principalCategorias .h {
+    grid-area: h;
+}
+
+body div.CentradoGrills .principalCategorias .g {
+    grid-area: g;
+}
+
+body div.CentradoGrills .principalCategorias .i {
+    grid-area: i;
+}
+
+body div.CentradoGrills .principalCategorias .j {
+    grid-area: j;
+}
+
+body div.CentradoGrills .principalCategorias .k {
+    grid-area: k;
+}
+
+body div.CentradoGrills .principalCategorias .l {
+    grid-area: l;
+}
+
+body div.CentradoGrills .principalCategorias .a,
+body div.CentradoGrills .principalCategorias .c,
+body div.CentradoGrills .principalCategorias .e,
+body div.CentradoGrills .principalCategorias .g,
+body div.CentradoGrills .principalCategorias .i,
+body div.CentradoGrills .principalCategorias .k {
+    justify-self: center;
+    align-self: center;
+}
+
+body div.CentradoGrills .principalCategorias h6 {
+    margin: 7%;
+    color: #2b2b2b;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: right;
+}
+
+body div.CentradoGrills .principalCategorias img {
+    height: 220px;
+    transition: width 0s, height 0s;
+}
+
+body div.CentradoGrills .principalCategorias img:hover {
+    height: 221px;
+}
+
+body footer {
+    color: black;
+    height: max-content;
+    text-align: center;
+    padding-bottom: 1.875rem;
+    border-top: 5px solid #666666d7;
+}
+
+@media (min-width: 517px) and (max-width: 980px) {
+    body #menu {
+        width: 100%;
+    }
+    body .principalCategorias {
+        width: fit-content;
+        background-color: #cfcfcf;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 3px;
+        grid-template-areas: "a b" "d c" "e f" "h g " "i j" "l k";
+    }
+    body .principalCategorias img {
+        height: 237px;
+    }
+    body .principalCategorias h6 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 516px) {
+    body .menu {
+        width: 100%;
+        display: block;
+        position: static;
+    }
+    body .menu ul {
+        display: block;
+    }
+    body .menu ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0.875rem 1.25rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+    body h3 {
+        font-size: 1rem;
+    }
+    body .CategoriasCirculos .circulo1,
+    body .CategoriasCirculos .circulo2,
+    body .CategoriasCirculos .circulo3,
+    body .CategoriasCirculos .circulo4 {
+        width: 9.5rem;
+        height: 9.5rem;
+        border-radius: 7.5rem;
+        margin: 0px;
+    }
+    body .CategoriasCirculos h4 {
+        font-size: 1rem;
+        width: 8.625rem;
+    }
+    body .principalCategorias {
+        width: fit-content;
+        background-color: #cfcfcf;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 3px;
+        grid-template-areas: "a b" "d c" "e f" "h g " "i j" "l k";
+    }
+    body .principalCategorias img {
+        height: 172px;
+    }
+    body .principalCategorias h6 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 360px) {
+    body .menu {
+        width: 100%;
+        position: static;
+        margin-bottom: 35px;
+    }
+    body header {
+        padding: 0px;
+    }
+    body header h1 {
+        font-size: 40px;
+    }
+    body h2 {
+        font-size: 30px;
+    }
+    body h3 {
+        font-size: 1rem;
+    }
+    body a {
+        font-size: 10px;
+    }
+    body .recetas {
+        width: 100%;
+        background-color: #cfcfcf;
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 1fr 3fr 1fr 3fr;
+        gap: 3px 0px;
+        grid-template-areas: "a1" "b1" "c1" "d1" "e1" "f1";
+        align-items: center;
+        justify-items: center;
+    }
+    body .CategoriasCirculos .circulo1,
+    body .CategoriasCirculos .circulo2,
+    body .CategoriasCirculos .circulo3,
+    body .CategoriasCirculos .circulo4 {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 7.5rem;
+        margin: 0px;
+        padding: 17px;
+    }
+    body .CategoriasCirculos .circulo4 {
+        padding: 3px;
+    }
+    body .CategoriasCirculos h4 {
+        font-size: 10px;
+        width: 8.625rem;
+        text-align: left;
+    }
+    body .principalCategorias {
+        width: fit-content;
+        background-color: #cfcfcf;
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+        gap: 3px;
+        grid-template-areas: "a " "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l";
+    }
+    body .principalCategorias img {
+        height: 322px;
+    }
+    body .principalCategorias h6 {
+        text-align: center;
+    }
+}
+
+.Pagina404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

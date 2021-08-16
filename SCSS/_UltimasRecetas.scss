@@ -1,0 +1,51 @@
+body {
+    div.UltimasRecetas {
+        margin-top: 1.875rem;
+        h2 {
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            margin-top: 0.625rem;
+            display: block;
+            transform: skewX(340deg);
+        }
+    }
+    .recetas {
+        width: 100%;
+        background-color: map-get($map: $colors, $key: grisFondo);
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3px 0px;
+        grid-template-areas: "a1 b1" "d1 c1" "e1 f1";
+        align-items: center;
+        justify-items: center;
+        .a1 {
+            grid-area: a1;
+        }
+        .b1 {
+            grid-area: b1;
+        }
+        .c1 {
+            grid-area: c1;
+        }
+        .d1 {
+            grid-area: d1;
+        }
+        .e1 {
+            grid-area: e1;
+        }
+        .f1 {
+            grid-area: f1;
+        }
+        a {
+            text-decoration: underline;
+        }
+        h3 {
+            color: rgb(43, 43, 43);
+            font-size: 2.5rem;
+            text-decoration: underline;
+        }
+    }
+}
